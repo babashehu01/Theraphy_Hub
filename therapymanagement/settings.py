@@ -89,6 +89,9 @@ DATABASES = {
     }
 }
 
+DATABASES['default'] = dj_database_url.parse('postgres://therapymanagement_user:gOEDKtETMHY0xMM2rLSLYh2xHJwQckjk@dpg-cokdbg779t8c73c7uf70-a.oregon-postgres.render.com/therapymanagement')
+
+# postgres://therapymanagement_user:gOEDKtETMHY0xMM2rLSLYh2xHJwQckjk@dpg-cokdbg779t8c73c7uf70-a.oregon-postgres.render.com/therapymanagement
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
